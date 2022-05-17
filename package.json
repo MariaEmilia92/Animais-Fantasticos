@@ -1,0 +1,27 @@
+{
+  "name": "animais-fantasticos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production js/script.js -o ./main.js",
+    "dev": "webpack --mode development --watch js/script.js -o ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaEmilia92/Animais-Fantasticos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaEmilia92/Animais-Fantasticos/issues"
+  },
+  "homepage": "https://github.com/MariaEmilia92/Animais-Fantasticos#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
